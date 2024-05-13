@@ -12,7 +12,7 @@
             $("#f").before($("#s"));
         });
         $("#s").click(function(){
-            $("#s").after($("#b1ton"));
+            $("#s").after($("#f"));
         });
         $( "#foo" ).bind( "mouseenter ", function() {
             $( this ).toggleClass( "entered" );
