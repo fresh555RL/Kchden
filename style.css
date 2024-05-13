@@ -1,0 +1,16 @@
+.base{
+    width: 100%;
+}
+#b1ton{
+    width: 200px;
+    height: 130px;
+    background-color: goldenrod; 
+    position: absolute;
+    top: 200px;
+    left:200px; 
+}
+.entered{
+    color:khaki;
+    background: #000;
+
+}
