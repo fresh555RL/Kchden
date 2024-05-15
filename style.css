@@ -1,16 +1,27 @@
-.base{
-    width: 100%;
-}
-#b1ton{
+.circle {
     width: 200px;
-    height: 130px;
-    background-color: goldenrod; 
-    position: absolute;
-    top: 200px;
-    left:200px; 
+    height: 200px;
+    background-color: #007bff; 
+    border-radius: 50%; 
+    position: relative;
+    animation: moveUpDown 4s ease-out 5 alternate;
+    transform-origin: center bottom;
 }
-.entered{
-    color:khaki;
-    background: #000;
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0) scaleY(1);
+    }
 
+    50% {
+        transform: translateY(300px)
+    }
+    55% {
+        transform: scaleY(0.7);
+    } 
+    80% {
+        transform: translateY(250px) scaleY(0.85); 
+    }
+    100% {
+        transform: translateY(0) scaleY(1);
+    }
 }
